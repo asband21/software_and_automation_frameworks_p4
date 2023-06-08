@@ -1,0 +1,6 @@
+source;share/tcp_server_xml/hook/pythonpath.ps1
+source;share/tcp_server_xml/hook/pythonpath.dsv
+source;share/tcp_server_xml/hook/pythonpath.sh
+source;share/tcp_server_xml/hook/ament_prefix_path.ps1
+source;share/tcp_server_xml/hook/ament_prefix_path.dsv
+source;share/tcp_server_xml/hook/ament_prefix_path.sh

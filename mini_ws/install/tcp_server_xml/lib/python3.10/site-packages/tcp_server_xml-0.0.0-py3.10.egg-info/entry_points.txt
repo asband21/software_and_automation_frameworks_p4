@@ -1,0 +1,3 @@
+[console_scripts]
+server_node = tcp_server_xml.server_node:main
+
