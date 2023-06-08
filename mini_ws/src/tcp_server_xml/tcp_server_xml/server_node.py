@@ -17,13 +17,15 @@ def main():
         if not data:
             break
         root = ET.fromstring(data)
-        cat_element = root.find("cat")
+        cat_element = root.find("id")
         if cat_element is not None:
             cat_number = cat_element.text
-            data = "Number in <cat>:" + str(cat_number)
+            if(int(cat_number) > 8):
+                data = "<id>0</id>" 
+            else:
+                data = "<id>1</id>" 
         else:
-            data = "<cat> element not found in XML."
-        
+            data = "<id> element not found in XML."
         conn.send(data.encode())  # send data to the client
 
     conn.close()  # close the connection
