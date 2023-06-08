@@ -1,6 +1,7 @@
 import socket
 
-host = socket.gethostname()  # as both code is running on same pc
+#host = socket.gethostname()  # as both code is running on same pc
+host = "172.20.66.25"
 port = 5000  # socket server port number
 
 client_socket = socket.socket()  # instantiate

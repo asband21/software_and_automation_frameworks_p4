@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.001158] (tcp_server_xml) JobQueued: {'identifier': 'tcp_server_xml', 'dependencies': OrderedDict()}
+[0.001248] (tcp_server_xml) JobStarted: {'identifier': 'tcp_server_xml'}
+[0.099347] (-) TimerEvent: {}
+[0.199638] (-) TimerEvent: {}
+[0.299932] (-) TimerEvent: {}
+[0.400239] (-) TimerEvent: {}
+[0.500564] (-) TimerEvent: {}
+[0.600868] (-) TimerEvent: {}
+[0.701229] (-) TimerEvent: {}
+[0.801523] (-) TimerEvent: {}
+[0.901820] (-) TimerEvent: {}
+[1.002130] (-) TimerEvent: {}
+[1.006586] (tcp_server_xml) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tcp_server_xml', 'build', '--build-base', '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build', 'install', '--record', '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log', '--single-version-externally-managed'], 'cwd': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'da:en', 'USER': 'klyx', 'LC_TIME': 'da_DK.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/klyx', 'OLDPWD': '/home/klyx', 'DESKTOP_SESSION': 'budgie-desktop', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'da_DK.UTF-8', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/klyx/.nix-profile', 'SYSTEMD_EXEC_PID': '3070', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4578', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'klyx', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'klyx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/klyx/.adb_filer/platform-tools:/home/klyx/.cargo/bin:/home/klyx/.nix-profile/bin:/home/klyx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/klyx/.dotnet/tools', 'SESSION_MANAGER': 'local/8l:@/tmp/.ICE-unix/3226,unix/8l:/tmp/.ICE-unix/3226', 'PAPERSIZE': 'a4', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'da_DK.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'WEBOTS_DISABLE_SAVE_SCREEN_PERSPECTIVE_ON_CLOSE': '1', 'DISPLAY': ':1', 'LANG': 'da_DK.UTF-8', 'XDG_CURRENT_DESKTOP': 'Budgie:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/klyx/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'da_DK.UTF-8', 'TILIX_ID': '46cf47a7-3768-43e8-ba80-8d14a48a5660', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'budgie-desktop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'da_DK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'budgie-desktop', 'WEBOTS_HOME': '/home/klyx/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'LC_MEASUREMENT': 'da_DK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'da_DK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-budgie-desktop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/budgie-desktop:/usr/share/gnome:/home/klyx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'da_DK.UTF-8', 'LC_PAPER': 'da_DK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'WEBOTS_ALLOW_MODIFY_INSTALLATION': '1'}, 'shell': False}
+[1.100660] (tcp_server_xml) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.100899] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml/setup.py", line 1, in <module>\n'}
+[1.101008] (tcp_server_xml) StderrLine: {'line': b'    from setuptools import setup\n'}
+[1.101108] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[1.101233] (tcp_server_xml) StderrLine: {'line': b'    import setuptools.version\n'}
+[1.101348] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>\n'}
+[1.101439] (tcp_server_xml) StderrLine: {'line': b'    import pkg_resources\n'}
+[1.101529] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 78, in <module>\n'}
+[1.101668] (tcp_server_xml) StderrLine: {'line': b"    __import__('pkg_resources.extern.packaging.requirements')\n"}
+[1.101763] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 10, in <module>\n'}
+[1.101877] (tcp_server_xml) StderrLine: {'line': b'    from pkg_resources.extern.pyparsing import (  # noqa\n'}
+[1.102002] (tcp_server_xml) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n'}
+[1.102118] (tcp_server_xml) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n'}
+[1.102262] (-) TimerEvent: {}
+[1.102428] (tcp_server_xml) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked\n'}
+[1.102539] (tcp_server_xml) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 571, in module_from_spec\n'}
+[1.102648] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/extern/__init__.py", line 52, in create_module\n'}
+[1.102747] (tcp_server_xml) StderrLine: {'line': b'    return self.load_module(spec.name)\n'}
+[1.102862] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/extern/__init__.py", line 37, in load_module\n'}
+[1.102959] (tcp_server_xml) StderrLine: {'line': b'    __import__(extant)\n'}
+[1.103055] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 5399, in <module>\n'}
+[1.103262] (tcp_server_xml) StderrLine: {'line': b'    class pyparsing_common:\n'}
+[1.103373] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 5586, in pyparsing_common\n'}
+[1.104112] (tcp_server_xml) StderrLine: {'line': b'    ipv6_address = Combine((_full_ipv6_address | _mixed_ipv6_address | _short_ipv6_address).setName("IPv6 address")).setName("IPv6 address")\n'}
+[1.104240] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 4255, in __init__\n'}
+[1.104723] (tcp_server_xml) StderrLine: {'line': b'    self.leaveWhitespace()\n'}
+[1.104827] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3745, in leaveWhitespace\n'}
+[1.105276] (tcp_server_xml) StderrLine: {'line': b'    self.expr = self.expr.copy()\n'}
+[1.105379] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in copy\n'}
+[1.105781] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.105885] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in <listcomp>\n'}
+[1.106304] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.106439] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in copy\n'}
+[1.106780] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.106882] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in <listcomp>\n'}
+[1.107276] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.107378] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in copy\n'}
+[1.107788] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.107897] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in <listcomp>\n'}
+[1.108286] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.108371] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in copy\n'}
+[1.108782] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.108869] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in <listcomp>\n'}
+[1.109285] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.109371] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in copy\n'}
+[1.109782] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.109876] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3365, in <listcomp>\n'}
+[1.110281] (tcp_server_xml) StderrLine: {'line': b'    ret.exprs = [e.copy() for e in self.exprs]\n'}
+[1.110377] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1183, in copy\n'}
+[1.110493] (tcp_server_xml) StderrLine: {'line': b'    cpy = copy.copy( self )\n'}
+[1.110592] (tcp_server_xml) StderrLine: {'line': b'  File "/usr/lib/python3.10/copy.py", line 102, in copy\n'}
+[1.110835] (tcp_server_xml) StderrLine: {'line': b'    return _reconstruct(x, None, *rv)\n'}
+[1.110926] (tcp_server_xml) StderrLine: {'line': b'  File "/usr/lib/python3.10/copy.py", line 280, in _reconstruct\n'}
+[1.111040] (tcp_server_xml) StderrLine: {'line': b'    y.__dict__.update(state)\n'}
+[1.111152] (tcp_server_xml) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[1.129170] (tcp_server_xml) CommandEnded: {'returncode': -2}
+[1.130539] (tcp_server_xml) JobEnded: {'identifier': 'tcp_server_xml', 'rc': 'SIGINT'}
+[1.139805] (-) EventReactorShutdown: {}
