@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 81, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 171, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2606, in from_location
+    )._reload_version()
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+    md_version = self._get_version()
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2785, in _get_version
+    version = _version_from_file(lines)
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2569, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+    for line in self.get_metadata_lines(name):
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+    return yield_lines(self.get_metadata(name))
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1412, in get_metadata
+    value = self._get(path)
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 1616, in _get
+    with open(path, 'rb') as stream:
+KeyboardInterrupt
+

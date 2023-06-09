@@ -1,0 +1,6 @@
+/home/klyx/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml/server_node.py", line 72
+    conn.close()  # close the connection
+SyntaxError: expected 'except' or 'finally' block
+

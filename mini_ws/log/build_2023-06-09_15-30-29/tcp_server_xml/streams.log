@@ -1,0 +1,22 @@
+[1.598s] Invoking command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed
+[1.973s] Traceback (most recent call last):
+[1.973s]   File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml/setup.py", line 1, in <module>
+[1.973s]     from setuptools import setup
+[1.974s]   File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[1.974s]     import setuptools.version
+[1.974s]   File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[1.974s]     import pkg_resources
+[1.974s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3267, in <module>
+[1.975s]     def _initialize_master_working_set():
+[1.975s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[1.975s]     f(*args, **kwargs)
+[1.975s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[1.975s]     list(map(working_set.add_entry, sys.path))
+[1.976s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 613, in add_entry
+[1.976s]     for dist in find_distributions(entry, True):
+[1.976s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[1.976s]     for dist in factory(fullpath):
+[1.976s]   File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+[1.977s]     if len(os.listdir(path)) == 0:
+[1.977s] KeyboardInterrupt
+[2.019s] Invoked command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml' returned '-2': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed

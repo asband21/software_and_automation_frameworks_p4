@@ -11,6 +11,7 @@ setup.py
 resource/tcp_server_xml
 tcp_server_xml/__init__.py
 tcp_server_xml/server_node.py
+tcp_server_xml/subcriber.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

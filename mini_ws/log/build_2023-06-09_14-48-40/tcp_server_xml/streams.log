@@ -1,0 +1,26 @@
+[1.547s] Invoking command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed
+[2.144s] running egg_info
+[2.146s] writing ../../build/tcp_server_xml/tcp_server_xml.egg-info/PKG-INFO
+[2.146s] writing dependency_links to ../../build/tcp_server_xml/tcp_server_xml.egg-info/dependency_links.txt
+[2.146s] writing entry points to ../../build/tcp_server_xml/tcp_server_xml.egg-info/entry_points.txt
+[2.147s] writing requirements to ../../build/tcp_server_xml/tcp_server_xml.egg-info/requires.txt
+[2.147s] writing top-level names to ../../build/tcp_server_xml/tcp_server_xml.egg-info/top_level.txt
+[2.152s] reading manifest file '../../build/tcp_server_xml/tcp_server_xml.egg-info/SOURCES.txt'
+[2.154s] writing manifest file '../../build/tcp_server_xml/tcp_server_xml.egg-info/SOURCES.txt'
+[2.154s] running build
+[2.155s] running build_py
+[2.156s] copying tcp_server_xml/server_node.py -> /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build/lib/tcp_server_xml
+[2.156s] running install
+[2.156s] /home/klyx/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.157s]   warnings.warn(
+[2.157s] running install_lib
+[2.158s] copying /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build/lib/tcp_server_xml/server_node.py -> /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml
+[2.159s] byte-compiling /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml/server_node.py to server_node.cpython-310.pyc
+[2.160s] running install_data
+[2.162s] running install_egg_info
+[2.165s] removing '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml-0.0.0-py3.10.egg-info' (and everything under it)
+[2.165s] Copying ../../build/tcp_server_xml/tcp_server_xml.egg-info to /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml-0.0.0-py3.10.egg-info
+[2.166s] running install_scripts
+[2.203s] Installing server_node script to /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/tcp_server_xml
+[2.203s] writing list of installed files to '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log'
+[2.285s] Invoked command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml' returned '0': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed

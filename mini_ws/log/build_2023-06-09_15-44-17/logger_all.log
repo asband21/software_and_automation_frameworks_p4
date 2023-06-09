@@ -1,0 +1,127 @@
+[0.454s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.455s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fef59caa2f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fef59d65de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fef59d65de0>>)[0m
+[0.480s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.480s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.480s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.480s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.480s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.481s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.494s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extension 'ignore'
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extension 'ignore_ament_install'
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extensions ['colcon_pkg']
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extension 'colcon_pkg'
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extensions ['colcon_meta']
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extension 'colcon_meta'
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extensions ['ros']
+[0.496s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tcp_server_xml) by extension 'ros'
+[0.498s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tcp_server_xml' with type 'ros.ament_python' and name 'tcp_server_xml'[0m
+[0.498s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.498s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.498s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.498s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.499s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.519s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.519s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.522s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install[0m
+[0.524s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 383 installed packages in /opt/ros/humble[0m
+[0.526s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.607s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_args' from command line to 'None'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_target' from command line to 'None'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_clean_cache' from command line to 'False'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_clean_first' from command line to 'False'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'cmake_force_configure' from command line to 'False'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'ament_cmake_args' from command line to 'None'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'catkin_cmake_args' from command line to 'None'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'tcp_server_xml' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.608s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'tcp_server_xml' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml', 'merge_install': False, 'path': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml', 'symlink_install': False, 'test_result_base': None}[0m
+[0.609s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.612s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.612s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml' with build type 'ament_python'
+[0.613s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tcp_server_xml', 'ament_prefix_path')
+[0.617s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/ament_prefix_path.ps1'
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/ament_prefix_path.dsv'
+[0.619s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/ament_prefix_path.sh'
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.020s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml'
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.596s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed[0m
+[2.050s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml' returned '0': PYTHONPATH=/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tcp_server_xml build --build-base /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build install --record /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log --single-version-externally-managed[0m
+[2.060s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml' for CMake module files
+[2.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml' for CMake config files
+[2.063s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib'
+[2.063s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/bin'
+[2.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/pkgconfig/tcp_server_xml.pc'
+[2.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages'
+[2.064s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('tcp_server_xml', 'pythonpath')
+[2.068s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/pythonpath.ps1'
+[2.069s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/pythonpath.dsv'
+[2.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/hook/pythonpath.sh'
+[2.071s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/bin'
+[2.071s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(tcp_server_xml)
+[2.076s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/package.ps1'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/package.dsv'
+[2.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/package.sh'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/package.bash'
+[2.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/tcp_server_xml/package.zsh'
+[2.086s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/share/colcon-core/packages/tcp_server_xml)
+[2.087s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.088s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.088s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.088s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.106s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.106s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.106s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.116s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/local_setup.ps1'
+[2.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/_local_setup_util_ps1.py'
+[2.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/setup.ps1'
+[2.130s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/local_setup.sh'
+[2.132s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/_local_setup_util_sh.py'
+[2.134s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/setup.sh'
+[2.138s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/local_setup.bash'
+[2.139s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/setup.bash'
+[2.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/local_setup.zsh'
+[2.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/setup.zsh'

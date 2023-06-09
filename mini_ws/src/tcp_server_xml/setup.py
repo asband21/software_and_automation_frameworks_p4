@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'server_node = tcp_server_xml.server_node:main'
+            'server_node = tcp_server_xml.server_node:main',
+            'subcriber = tcp_server_xml.subcriber:main'
         ],
     },
 )

@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.002688] (tcp_server_xml) JobQueued: {'identifier': 'tcp_server_xml', 'dependencies': OrderedDict()}
+[0.003392] (tcp_server_xml) JobStarted: {'identifier': 'tcp_server_xml'}
+[0.099536] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300636] (-) TimerEvent: {}
+[0.401193] (-) TimerEvent: {}
+[0.501764] (-) TimerEvent: {}
+[0.602406] (-) TimerEvent: {}
+[0.703042] (-) TimerEvent: {}
+[0.803561] (-) TimerEvent: {}
+[0.904173] (-) TimerEvent: {}
+[1.004731] (-) TimerEvent: {}
+[1.105332] (-) TimerEvent: {}
+[1.205930] (-) TimerEvent: {}
+[1.306387] (-) TimerEvent: {}
+[1.406865] (-) TimerEvent: {}
+[1.507384] (-) TimerEvent: {}
+[1.599106] (tcp_server_xml) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tcp_server_xml', 'build', '--build-base', '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/build', 'install', '--record', '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log', '--single-version-externally-managed'], 'cwd': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'da:en', 'USER': 'klyx', 'LC_TIME': 'da_DK.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/klyx', 'OLDPWD': '/home/klyx/git/p4/software_and_automation_frameworks_p4', 'DESKTOP_SESSION': 'budgie-desktop', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'da_DK.UTF-8', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/klyx/.nix-profile', 'SYSTEMD_EXEC_PID': '3325', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5484', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'klyx', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'klyx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/klyx/.adb_filer/platform-tools:/home/klyx/.cargo/bin:/home/klyx/.nix-profile/bin:/home/klyx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/klyx/.dotnet/tools', 'SESSION_MANAGER': 'local/8l:@/tmp/.ICE-unix/3474,unix/8l:/tmp/.ICE-unix/3474', 'PAPERSIZE': 'a4', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'da_DK.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'WEBOTS_DISABLE_SAVE_SCREEN_PERSPECTIVE_ON_CLOSE': '1', 'DISPLAY': ':1', 'LANG': 'da_DK.UTF-8', 'XDG_CURRENT_DESKTOP': 'Budgie:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/klyx/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'da_DK.UTF-8', 'TILIX_ID': '265a4983-11bf-463e-bd4f-6a0a6937e27c', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'budgie-desktop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'da_DK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'budgie-desktop', 'WEBOTS_HOME': '/home/klyx/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'LC_MEASUREMENT': 'da_DK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'da_DK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-budgie-desktop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/budgie-desktop:/usr/share/gnome:/home/klyx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/prefix_override:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'da_DK.UTF-8', 'LC_PAPER': 'da_DK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'WEBOTS_ALLOW_MODIFY_INSTALLATION': '1'}, 'shell': False}
+[1.607547] (-) TimerEvent: {}
+[1.708036] (-) TimerEvent: {}
+[1.808677] (-) TimerEvent: {}
+[1.909257] (-) TimerEvent: {}
+[1.975765] (tcp_server_xml) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.976422] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml/setup.py", line 1, in <module>\n'}
+[1.976638] (tcp_server_xml) StderrLine: {'line': b'    from setuptools import setup\n'}
+[1.976826] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[1.977091] (tcp_server_xml) StderrLine: {'line': b'    import setuptools.version\n'}
+[1.977281] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>\n'}
+[1.977464] (tcp_server_xml) StderrLine: {'line': b'    import pkg_resources\n'}
+[1.977696] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[1.977879] (tcp_server_xml) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[1.978104] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[1.978343] (tcp_server_xml) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[1.978524] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set\n'}
+[1.978755] (tcp_server_xml) StderrLine: {'line': b'    list(map(working_set.add_entry, sys.path))\n'}
+[1.978955] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[1.979187] (tcp_server_xml) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[1.979367] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[1.979576] (tcp_server_xml) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[1.979763] (tcp_server_xml) StderrLine: {'line': b'  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata\n'}
+[1.979944] (tcp_server_xml) StderrLine: {'line': b'    if len(os.listdir(path)) == 0:\n'}
+[1.980122] (tcp_server_xml) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[2.009470] (-) TimerEvent: {}
+[2.022247] (tcp_server_xml) CommandEnded: {'returncode': -2}
+[2.023053] (tcp_server_xml) JobEnded: {'identifier': 'tcp_server_xml', 'rc': 'SIGINT'}
+[2.033101] (-) EventReactorShutdown: {}

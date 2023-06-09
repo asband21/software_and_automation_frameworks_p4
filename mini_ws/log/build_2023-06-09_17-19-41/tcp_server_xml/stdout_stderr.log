@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/tcp_server_xml/tcp_server_xml.egg-info/PKG-INFO
+writing dependency_links to ../../build/tcp_server_xml/tcp_server_xml.egg-info/dependency_links.txt
+writing entry points to ../../build/tcp_server_xml/tcp_server_xml.egg-info/entry_points.txt
+writing requirements to ../../build/tcp_server_xml/tcp_server_xml.egg-info/requires.txt
+writing top-level names to ../../build/tcp_server_xml/tcp_server_xml.egg-info/top_level.txt
+reading manifest file '../../build/tcp_server_xml/tcp_server_xml.egg-info/SOURCES.txt'
+writing manifest file '../../build/tcp_server_xml/tcp_server_xml.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/klyx/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tcp_server_xml/tcp_server_xml.egg-info to /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/python3.10/site-packages/tcp_server_xml-0.0.0-py3.10.egg-info
+running install_scripts
+Installing server_node script to /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/tcp_server_xml
+Installing subcriber script to /home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/install/tcp_server_xml/lib/tcp_server_xml
+writing list of installed files to '/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/build/tcp_server_xml/install.log'

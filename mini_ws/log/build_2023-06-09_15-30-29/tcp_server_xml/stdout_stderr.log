@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/klyx/git/p4/software_and_automation_frameworks_p4/mini_ws/src/tcp_server_xml/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/klyx/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/klyx/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+    if len(os.listdir(path)) == 0:
+KeyboardInterrupt

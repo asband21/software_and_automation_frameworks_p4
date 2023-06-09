@@ -1,3 +1,4 @@
 [console_scripts]
 server_node = tcp_server_xml.server_node:main
+subcriber = tcp_server_xml.subcriber:main
 
